@@ -1,0 +1,18 @@
+{
+  "name": "shopify-order-guard",
+  "version": "1.0.0",
+  "description": "Bulk WhatsApp order confirmation + fraud/duplicate detection + auto-cancel app for Shopify COD stores",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.7",
+    "pg": "^8.11.5",
+    "dotenv": "^16.4.5",
+    "body-parser": "^1.20.3"
+  }
+}
